@@ -1,0 +1,10 @@
+node_modules/
+src/
+tests/
+*.config.ts
+*.config.js
+tsconfig.json
+.gitignore
+.eslintrc*
+coverage/
+.nyc_output/

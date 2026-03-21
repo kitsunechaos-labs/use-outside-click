@@ -1,0 +1,93 @@
+{
+  "name": "use-outside-click",
+  "version": "1.0.0",
+  "description": "A tiny, modern React hook to detect clicks outside an element. SSR-safe, TypeScript-native, zero dependencies. Perfect for modals, dropdowns, popovers, tooltips, context menus, sidebars, and more.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean --minify",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "hooks",
+    "react-hook",
+    "outside-click",
+    "click-outside",
+    "use-outside-click",
+    "useOutsideClick",
+    "detect-outside-click",
+    "click-away",
+    "clickaway",
+    "dismiss",
+    "dropdown",
+    "modal",
+    "popover",
+    "tooltip",
+    "context-menu",
+    "sidebar",
+    "close-on-click-outside",
+    "typescript",
+    "ssr",
+    "nextjs",
+    "next.js",
+    "zero-dependency",
+    "react-modal",
+    "react-dropdown",
+    "react-popover",
+    "touch-event",
+    "mousedown",
+    "headless"
+  ],
+  "author": {
+    "name": "use-outside-click contributors",
+    "url": "https://github.com/use-outside-click/use-outside-click"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/use-outside-click/use-outside-click.git"
+  },
+  "bugs": {
+    "url": "https://github.com/use-outside-click/use-outside-click/issues"
+  },
+  "homepage": "https://github.com/use-outside-click/use-outside-click#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/jest-dom": "^6.0.0",
+    "@types/react": "^18.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "jsdom": "^24.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0",
+    "@vitest/coverage-v8": "^1.0.0"
+  },
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  }
+}
