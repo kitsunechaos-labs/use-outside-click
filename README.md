@@ -2,9 +2,9 @@
 
 <div align="center">
 
-[![npm version](https://img.shields.io/npm/v/use-outside-click.svg?style=flat-square&color=brightgreen)](https://www.npmjs.com/package/use-outside-click)
-[![npm downloads](https://img.shields.io/npm/dm/use-outside-click.svg?style=flat-square)](https://www.npmjs.com/package/use-outside-click)
-[![bundle size](https://img.shields.io/bundlephobia/minzip/use-outside-click?style=flat-square&label=gzipped)](https://bundlephobia.com/package/use-outside-click)
+[![npm version](https://img.shields.io/npm/v/@kitsunechaos/use-outside-click.svg?style=flat-square&color=brightgreen)](https://www.npmjs.com/package/@kitsunechaos/use-outside-click)
+[![npm downloads](https://img.shields.io/npm/dm/@kitsunechaos/use-outside-click.svg?style=flat-square)](https://www.npmjs.com/package/@kitsunechaos/use-outside-click)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/@kitsunechaos/use-outside-click?style=flat-square&label=gzipped)](https://bundlephobia.com/package/@kitsunechaos/use-outside-click)
 [![TypeScript](https://img.shields.io/badge/TypeScript-native-blue?style=flat-square)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen?style=flat-square)](#)
@@ -49,11 +49,11 @@ Every React developer who builds a **dropdown, modal, popover, tooltip, context 
 ## Installation
 
 ```bash
-npm install use-outside-click
+npm install @kitsunechaos/use-outside-click
 # or
-yarn add use-outside-click
+yarn add @kitsunechaos/use-outside-click
 # or
-pnpm add use-outside-click
+pnpm add @kitsunechaos/use-outside-click
 ```
 
 **Peer dependencies:** React ≥ 16.8 (hooks era)
@@ -64,7 +64,7 @@ pnpm add use-outside-click
 
 ```tsx
 import { useRef, useState } from 'react';
-import { useOutsideClick } from 'use-outside-click';
+import { useOutsideClick } from '@kitsunechaos/use-outside-click';
 
 function Dropdown() {
   const [open, setOpen] = useState(false);
@@ -91,7 +91,7 @@ That's it. **One import, one hook call.**
 
 ```tsx
 import { useRef, useState } from 'react';
-import { useOutsideClick } from 'use-outside-click';
+import { useOutsideClick } from '@kitsunechaos/use-outside-click';
 
 function Modal({ onClose }: { onClose: () => void }) {
   const modalRef = useRef<HTMLDivElement>(null);
@@ -220,7 +220,7 @@ No special config needed for Next.js, Remix, Astro, or any other SSR framework.
 ```tsx
 // app/components/Dropdown.tsx  ← Next.js App Router
 'use client'; // only this directive needed
-import { useOutsideClick } from 'use-outside-click';
+import { useOutsideClick } from '@kitsunechaos/use-outside-click';
 ```
 
 ---
@@ -251,7 +251,7 @@ Zero runtime dependencies. React is a peer dep.
 Full TypeScript support is built-in. No separate `@types/` package required.
 
 ```ts
-import type { UseOutsideClickOptions, OutsideClickTarget } from 'use-outside-click';
+import type { UseOutsideClickOptions, OutsideClickTarget } from '@kitsunechaos/use-outside-click';
 ```
 
 ---
