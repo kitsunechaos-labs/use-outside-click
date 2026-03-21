@@ -33,16 +33,16 @@ Every React developer who builds a **dropdown, modal, popover, tooltip, context 
 
 ## Features
 
-- ✅ **Drop-in simple** — one hook call, any element
-- ✅ **TypeScript native** — full types, no `@types/` package needed
-- ✅ **Multiple refs** — watch several elements at once
-- ✅ **SSR safe** — works with Next.js, Remix, Astro out of the box
-- ✅ **Touch + mouse** — mobile-first by default
-- ✅ **Capture phase** — works even with `stopPropagation`
-- ✅ **Zero dependencies** — React peer dep only
-- ✅ **Inline handler stable** — no infinite re-subscription loops
-- ✅ **`enabled` toggle** — zero overhead when disabled
-- ✅ **Auto cleanup** — removes listeners on unmount
+- **Drop-in simple** — one hook call, any element
+- **TypeScript native** — full types, no `@types/` package needed
+- **Multiple refs** — watch several elements at once
+- **SSR safe** — works with Next.js, Remix, Astro out of the box
+- **Touch + mouse** — mobile-first by default
+- **Capture phase** — works even with `stopPropagation`
+- **Zero dependencies** — React peer dep only
+- **Inline handler stable** — no infinite re-subscription loops
+- **`enabled` toggle** — zero overhead when disabled
+- **Auto cleanup** — removes listeners on unmount
 
 ---
 
@@ -121,7 +121,7 @@ function Tooltip() {
 
   return (
     <span ref={ref}>
-      <button onClick={() => setVisible(true)}>ℹ️</button>
+      <button onClick={() => setVisible(true)}>Info</button>
       {visible && <div className="tooltip">More info here!</div>}
     </span>
   );
@@ -290,6 +290,6 @@ npm run build
 
 <div align="center">
 
-**If this saved you time, please ⭐ the repo and share it — it helps others find it!**
+**If this saved you time, please star the repository and share it — it helps others find it!**
 
 </div>
