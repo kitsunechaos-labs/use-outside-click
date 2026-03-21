@@ -64,12 +64,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/use-outside-click/use-outside-click.git"
+    "url": "https://github.com/kitsunechaos-labs/use-outside-click"
   },
+  "homepage": "https://github.com/kitsunechaos-labs/use-outside-click#readme",
   "bugs": {
-    "url": "https://github.com/use-outside-click/use-outside-click/issues"
+    "url": "https://github.com/kitsunechaos-labs/use-outside-click/issues"
   },
-  "homepage": "https://github.com/use-outside-click/use-outside-click#readme",
   "peerDependencies": {
     "react": ">=16.8.0"
   },
