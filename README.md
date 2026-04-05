@@ -4,7 +4,6 @@
 
 [![npm version](https://img.shields.io/npm/v/@kitsunechaos/use-outside-click.svg?style=flat-square&color=brightgreen)](https://www.npmjs.com/package/@kitsunechaos/use-outside-click)
 [![npm downloads](https://img.shields.io/npm/dm/@kitsunechaos/use-outside-click.svg?style=flat-square)](https://www.npmjs.com/package/@kitsunechaos/use-outside-click)
-[![bundle size](https://img.shields.io/bundlephobia/minzip/@kitsunechaos/use-outside-click?style=flat-square&label=gzipped)](https://bundlephobia.com/package/@kitsunechaos/use-outside-click)
 [![TypeScript](https://img.shields.io/badge/TypeScript-native-blue?style=flat-square)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen?style=flat-square)](#)
