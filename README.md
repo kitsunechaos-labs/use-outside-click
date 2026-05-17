@@ -16,6 +16,15 @@ Tiny · TypeScript-native · SSR-safe · Zero dependencies · Touch + Mouse
 
 ---
 
+# @kitsunechaos/use-outside-click
+
+Tiny framework-agnostic utility for detecting interactions outside an element.
+
+✨ TypeScript-first
+⚡ Lightweight
+📦 Zero dependencies
+🧠 Works with React, Vue, Angular, and vanilla JS
+
 ## Why `use-outside-click`?
 
 Every React developer who builds a **dropdown, modal, popover, tooltip, context menu, or sidebar** needs this util. Yet the existing solutions are:
