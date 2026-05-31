@@ -1,9 +1,8 @@
 name: Publish Package
 
 on:
-  push:
-    tags:
-      - 'v*'
+  release:
+    types: [published]
 
 jobs:
   publish:
@@ -26,6 +25,6 @@ jobs:
       
       - run: npm run build
       
-      - run: npm publish --provenance --access public
+      - run: npm publish --provenance
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
