@@ -3,13 +3,18 @@
   "version": "1.1.0",
   "description": "A tiny, modern React hook to detect clicks outside an element. SSR-safe, TypeScript-native, zero dependencies. Perfect for modals, dropdowns, popovers, tooltips, context menus, sidebars, and more.",
   "main": "dist/index.js",
-  "module": "dist/index.esm.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/index.esm.js",
-      "require": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
     }
   },
   "files": [
@@ -59,7 +64,7 @@
   ],
   "author": {
     "name": "use-outside-click contributors",
-    "url": "https://github.com/use-outside-click/use-outside-click"
+    "url": "https://github.com/kitsunechaos-labs/use-outside-click"
   },
   "license": "MIT",
   "repository": {
